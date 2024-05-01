@@ -1,0 +1,30 @@
+{
+  "name": "llm-pdf-ocr-api",
+  "version": "0.0.1",
+  "description": "A Node.js based REST PDF OCR API using Hugging Face.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samestrin/llm-pdf-ocr-api.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "pdf",
+    "ocr",
+    "api",
+    "hugging",
+    "face",
+    "ai",
+    "llm"
+  ],
+  "author": "Sam Estrin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samestrin/llm-pdf-ocr-api/issues"
+  },
+  "homepage": "https://github.com/samestrin/llm-pdf-ocr-api#readme"
+}
