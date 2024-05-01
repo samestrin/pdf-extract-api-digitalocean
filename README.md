@@ -1,1 +1,1 @@
-# llm-pdf-ocr-api
+# pdf-ocr-api-digitalocean
