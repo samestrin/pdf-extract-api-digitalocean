@@ -1,7 +1,7 @@
 {
-  "name": "llm-pdf-ocr-api",
+  "name": "pdf-ocr-api-digitalocean",
   "version": "0.0.1",
-  "description": "A Node.js based REST PDF OCR API using Hugging Face.",
+  "description": "A Node.js based REST PDF OCR API using Tesseract.js.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,10 +16,7 @@
     "pdf",
     "ocr",
     "api",
-    "hugging",
-    "face",
-    "ai",
-    "llm"
+    "tesseract"
   ],
   "author": "Sam Estrin",
   "license": "MIT",
