@@ -43,6 +43,25 @@ Navigate to your project's root directory and run:
 npm start
 ```
 
+## **Endpoints**
+
+### **Extract**
+
+**Endpoint:** `/extract` **Method:** POST
+
+Extract text from a PDF file.
+
+#### **Parameters**
+
+- `file`: PDF file
+
+## **Error Handling**
+
+The API handles errors gracefully and returns appropriate error responses.
+
+- **400 Bad Request**: Invalid request parameters.
+- **500 Internal Server Error**: Unexpected server error.
+
 ## Contribute
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes or improvements.
