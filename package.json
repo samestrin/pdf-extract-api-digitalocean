@@ -1,14 +1,15 @@
 {
   "name": "pdf-ocr-api-digitalocean",
   "version": "0.0.1",
-  "description": "A Node.js based REST PDF OCR API using Tesseract.js.",
+  "description": "A Node.js based REST PDF `OCR` API using pdf-parse.",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samestrin/llm-pdf-ocr-api.git"
+    "url": "git+https://github.com/samestrin/llm-pdf-ocr-api-digitalocean.git"
   },
   "keywords": [
     "node",
@@ -16,18 +17,18 @@
     "pdf",
     "ocr",
     "api",
-    "tesseract"
+    "pdf-parse"
   ],
   "author": "Sam Estrin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samestrin/llm-pdf-ocr-api/issues"
+    "url": "https://github.com/samestrin/pdf-ocr-api-digitalocean/issues"
   },
-  "homepage": "https://github.com/samestrin/llm-pdf-ocr-api#readme",
+  "homepage": "https://github.com/samestrin/pdf-ocr-api-digitalocean#readme",
   "dependencies": {
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1",
-    "tesseract.js": "^5.0.5"
+    "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
