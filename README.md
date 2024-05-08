@@ -62,6 +62,16 @@ The API handles errors gracefully and returns appropriate error responses.
 - **400 Bad Request**: Invalid request parameters.
 - **500 Internal Server Error**: Unexpected server error.
 
+## **Example Usage**
+
+Use a tool like Postman or curl to make a request:
+
+```bash
+curl -F "file=@path_to_pdf_file.pdf" http://localhost:[PORT]/ocr
+```
+
+The server will process the uploaded file and return the extracted text in JSON format.
+
 ## Contribute
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes or improvements.
