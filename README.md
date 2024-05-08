@@ -1,6 +1,6 @@
-# pdf-ocr-api-digitalocean
+# pdf-extract-api-digitalocean
 
-[![Star on GitHub](https://img.shields.io/github/stars/samestrin/pdf-ocr-api-digitalocean?style=social)](https://github.com/samestrin/pdf-ocr-api-digitalocean/stargazers)[![Fork on GitHub](https://img.shields.io/github/forks/samestrin/pdf-ocr-api-digitalocean?style=social) ](https://github.com/samestrin/pdf-ocr-api-digitalocean/network/members)[![Watch on GitHub](https://img.shields.io/github/watchers/samestrin/pdf-ocr-api-digitalocean?style=social)](https://github.com/samestrin/pdf-ocr-api-digitalocean/watchers)
+[![Star on GitHub](https://img.shields.io/github/stars/samestrin/pdf-extract-api-digitalocean?style=social)](https://github.com/samestrin/pdf-extract-api-digitalocean/stargazers)[![Fork on GitHub](https://img.shields.io/github/forks/samestrin/pdf-extract-api-digitalocean?style=social) ](https://github.com/samestrin/pdf-extract-api-digitalocean/network/members)[![Watch on GitHub](https://img.shields.io/github/watchers/samestrin/pdf-extract-api-digitalocean?style=social)](https://github.com/samestrin/pdf-extract-api-digitalocean/watchers)
 
 ![Version 0.0.1](https://img.shields.io/badge/Version-0.0.1-blue) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ](https://opensource.org/licenses/MIT)[![Built with Python](https://img.shields.io/badge/Built%20with-Python-green)](https://www.python.org/)
 
@@ -25,14 +25,14 @@ This project implements a simulated Optical Character Recognition (OCR) service 
 
 Before installing, ensure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install Node.js from [Node.js official website](https://nodejs.org/).
 
-## Installing pdf-ocr-api-digitalocean
+## Installing pdf-extract-api-digitalocean
 
-To install and use pdf-ocr-api-digitalocean, follow these steps:
+To install and use pdf-extract-api-digitalocean, follow these steps:
 
-Clone the Repository: Begin by cloning the repository containing the pdf-ocr-api-digitalocean to your local machine.
+Clone the Repository: Begin by cloning the repository containing the pdf-extract-api-digitalocean to your local machine.
 
 ```bash
-git clone https://github.com/samestrin/pdf-ocr-api-digitalocean/
+git clone https://github.com/samestrin/pdf-extract-api-digitalocean/
 ```
 
 Set PORT environment variable to define the port on which the server will listen. Default is 3000
@@ -53,4 +53,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Share
 
-[![Twitter](https://img.shields.io/badge/X-Tweet-blue)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20project!&url=https://github.com/samestrin/pdf-ocr-api-digitalocean) [![Facebook](https://img.shields.io/badge/Facebook-Share-blue)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/samestrin/pdf-ocr-api-digitalocean) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Share-blue)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/samestrin/pdf-ocr-api-digitalocean)
+[![Twitter](https://img.shields.io/badge/X-Tweet-blue)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20project!&url=https://github.com/samestrin/pdf-extract-api-digitalocean) [![Facebook](https://img.shields.io/badge/Facebook-Share-blue)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/samestrin/pdf-extract-api-digitalocean) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Share-blue)](https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/samestrin/pdf-extract-api-digitalocean)
