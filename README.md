@@ -67,7 +67,7 @@ The API handles errors gracefully and returns appropriate error responses.
 Use a tool like Postman or curl to make a request:
 
 ```bash
-curl -F "file=@path_to_pdf_file.pdf" http://localhost:[PORT]/ocr
+curl -F "file=@path_to_pdf_file.pdf" http://localhost:[PORT]/extract
 ```
 
 The server will process the uploaded file and return the extracted text in JSON format.
