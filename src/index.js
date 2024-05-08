@@ -33,7 +33,7 @@ const upload = multer({ storage: storage });
  * @param {Response} res - The express response object used to send responses back to the client.
  * @throws {Error} Sends a 500 status response if reading, parsing, or deleting the file fails.
  */
-app.post("/ocr", upload.single("file"), async (req, res) => {
+app.post("/extract", upload.single("file"), async (req, res) => {
   if (!req.file) {
     return res.status(400).send("No file uploaded.");
   }
